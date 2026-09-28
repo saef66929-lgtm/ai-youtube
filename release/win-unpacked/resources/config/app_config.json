@@ -1,0 +1,27 @@
+{
+  "app_name": "AI YouTube",
+  "app_version": "0.1.0",
+  "environment": "development",
+  "sidecar": {
+    "host": "127.0.0.1",
+    "port": 8765,
+    "startup_timeout_seconds": 15
+  },
+  "paths": {
+    "models_dir": "/app/applet/models",
+    "outputs_dir": "/app/applet/outputs",
+    "logs_dir": "/app/applet/logs",
+    "cache_dir": "/app/applet/cache"
+  },
+  "hardware": {
+    "selected_gpu": null,
+    "status": "Not Scanned Yet"
+  },
+  "settings": {
+    "preset": "standard",
+    "auto_start_sidecar": true,
+    "log_level": "INFO",
+    "language": "ar"
+  },
+  "language": "ar"
+}
